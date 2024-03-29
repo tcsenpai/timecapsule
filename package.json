@@ -1,0 +1,17 @@
+{
+  "name": "timecapsule",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/sha256-universal": "^1.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@digitalcredentials/sha256-universal": "^1.1.1",
+    "ntp-time": "^2.0.4",
+    "tsx": "^4.7.1"
+  }
+}
